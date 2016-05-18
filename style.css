@@ -1,0 +1,52 @@
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  div.title {
+    display: block;
+    margin: -8px 0px 0px -8px;
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid;
+    background-color: lightblue;
+    text-align: center;
+    padding: 0px 0px 4px 0px;
+  }
+
+  div.navigation {
+    display: inline-block;
+    margin: 0px 0px 0px -8px;
+    height: 864px;
+    width: 12%;
+    font-size: 16px;
+    background-color: lightblue;
+    border: 3px solid;
+    vertical-align: top;
+  }
+
+  div.main {
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    height: 864px;
+    width: 88%;
+    font-size: 14px;
+    background-color: white;
+    border: 3px solid;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 5%;
+    line-height: 20px;
+  }
+
+img {
+  float: left;
+  margin-bottom: 10px;
+}
+
+p {
+  clear: right;
+  font-size: 32px;
+}
